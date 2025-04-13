@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4226D7282DAC4B910061BBDD /* DotLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4226D7272DAC4B910061BBDD /* DotLoadingView.swift */; };
+		4226D7292DAC4B910061BBDD /* DotLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4226D7272DAC4B910061BBDD /* DotLoadingView.swift */; };
 		427540DC2DAB646000756692 /* OpenAISwift in Frameworks */ = {isa = PBXBuildFile; productRef = 427540DB2DAB646000756692 /* OpenAISwift */; };
 		427540DF2DAB64A100756692 /* OpenAISwift in Frameworks */ = {isa = PBXBuildFile; productRef = 427540DE2DAB64A100756692 /* OpenAISwift */; };
 		427540E12DAB65CA00756692 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427540E02DAB65CA00756692 /* MainView.swift */; };
@@ -23,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4226D7272DAC4B910061BBDD /* DotLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotLoadingView.swift; sourceTree = "<group>"; };
 		427540B42DAB629900756692 /* ChatGptiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatGptiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		427540C72DAB62E900756692 /* ChatGptmacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatGptmacOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		427540E02DAB65CA00756692 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -69,6 +72,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4226D7262DAC4B5A0061BBDD /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				4226D7272DAC4B910061BBDD /* DotLoadingView.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
 		427540A92DAB624100756692 = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +128,7 @@
 		42B5FCB82DAC07E200A82B80 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				4226D7262DAC4B5A0061BBDD /* CustomViews */,
 				42B5FCBF2DAC334D00A82B80 /* Model */,
 				42B5FCBC2DAC081000A82B80 /* Protocols */,
 				42B5FCBB2DAC080600A82B80 /* View */,
@@ -285,6 +297,7 @@
 				427540E62DAB67EF00756692 /* MainViewModel.swift in Sources */,
 				427540E42DAB670200756692 /* String+Extensions.swift in Sources */,
 				42B5FCC32DAC349E00A82B80 /* APIError.swift in Sources */,
+				4226D7282DAC4B910061BBDD /* DotLoadingView.swift in Sources */,
 				42B5FCBE2DAC082100A82B80 /* OpenAIService.swift in Sources */,
 				427540E82DAB682A00756692 /* MainService.swift in Sources */,
 				42B5FCC12DAC336500A82B80 /* ChatMessageResponse.swift in Sources */,
@@ -298,6 +311,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42B5FCCA2DAC367800A82B80 /* Secrets.swift in Sources */,
+				4226D7292DAC4B910061BBDD /* DotLoadingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
